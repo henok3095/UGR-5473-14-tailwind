@@ -4,47 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="output.css">
 </head>
-<body>
-    <header>
-        <img src="images/logo.jpg" width="100px">
-        <h3>Henok Eyayalem</h3>
+<body class="font-sans bg-gray-100">
+    <header class="bg-gray-800 text-white text-center p-4 md:p-10 ">
+        <div class="flex items-center justify-center">
+            <img class="rounded-full border-2 border-white" src="../images/logo.jpg" width="100px" alt="Logo">
+            <h3 class="md:m-30 md:ml-20 text-lg md:text-2xl font-bold">Henok Eyayalem</h3>
+        </div>
     </header>
-    <nav>
-        <a href="home.html">Home</a>
-        <a href="aboutme.html">About me</a>
-        <a href="Contactme.html">Contact me</a>
-        <a href="Favouritemedia.html">Favourite media</a>
-        <a href="places.html">Places want to visit</a>
+    <nav class="bg-gray-300 p-5 text-center flex-auto mb-0">
+        <a href="home.html" class="no-underline mx-2 md:mx-10 text-gray-333 hover:text-red-500 transition duration-300">Home</a>
+        <a href="aboutme.html" class="no-underline mx-2 md:mx-10 text-gray-333 hover:text-blue-500 transition duration-300">About me</a>
+        <a href="Contactme.html" class="no-underline mx-2 md:mx-10 text-gray-333 hover:text-blue-500 transition duration-300">Contact me</a>
+        <a href="Favouritemedia.html" class="no-underline mx-2 md:mx-10 text-gray-333 hover:text-blue-500 transition duration-300">Favourite media</a>
+        <a href="places.html" class="no-underline mx-2 md:mx-10 text-gray-333 hover:text-blue-500 transition duration-300">Places want to visit</a>
     </nav>
-    <h1> PLACES WANT TO VISIT</h1>
-<img src="images/tokyo.jpg">
-<button>tokyo</button>
-<h3>Tokyo</h3>
-<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been</p>
+    <div class="home grid gap-4 md:gap-8 lg:gap-10 p-4 md:p-10 lg:p-20 text-center">
+        <h1 class="title1 bg-gray-900 text-white p-4 md:p-10 lg:p-16 font-bold text-lg md:text-2xl lg:text-3xl">PLACES WANT TO VISIT</h1>
+    </div>
+    <div class="places-container grid gap-8 md:gap-10 lg:gap-16 p-4 md:p-10 lg:p-20 text-center">
+        <div class="place-card">
+            <img src="../images/tokyo.jpg" class="tokyoimage w-full">
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4">Tokyo</button>
+            <p class="text-gray-600 mt-2 md:mt-4 lg:mt-6">
+                Tokyo, with its dynamic fusion of tradition and modernity, beckons me with an irresistible allure. The city pulsates with vibrant energy, offering a kaleidoscope of experiences that seamlessly blend ancient Japanese customs with cutting-edge technology. From the tranquil serenity of historic shrines like Meiji Shrine to the bustling chaos of Shibuya Crossing, Tokyo promises a cultural odyssey like no other. The neon-lit streets of Akihabara evoke a futuristic ambiance, while traditional tea ceremonies in Ueno Park transport me back to the elegance of Japan's past. Tokyo's culinary scene, featuring sushi masterpieces and ramen delights, is a gastronomic adventure waiting to unfold. The city's commitment to innovation is mirrored in architectural wonders like Tokyo Skytree, standing tall against the skyline. Cherry blossoms in Ueno Park and the tranquil waters of the Sumida River offer moments of serenity amidst the urban hustle. Tokyo's commitment to preserving heritage, coupled with its relentless pursuit of the avant-garde, makes it a captivating destination that resonates with my desire for a harmonious blend of history and innovation.
+            </p>
+        </div>
 
+        <div class="place-card">
+            <img src="../images/budapest.jpg" class="budapestimage w-full">
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4">Budapest</button>
+            <p class="text-gray-600 mt-2 md:mt-4 lg:mt-6">
+                Budapest, the enchanting capital of Hungary, captivates me with its rich historical tapestry and breathtaking beauty. Nestled along the banks of the Danube River, the city boasts a seamless blend of architectural marvels, from the grandeur of Buda Castle to the thermal baths of Széchenyi. The regal Chain Bridge connects Buda and Pest, symbolizing the city's unity and resilience. Exploring the vibrant Jewish Quarter reveals eclectic street art and a lively cultural scene, while the historic Fisherman's Bastion offers panoramic views of the cityscape. Budapest's thermal baths, such as the iconic Gellért Baths, promise moments of relaxation amidst the city's dynamic pace. The Danube River, illuminated by the lights of Parliament and Buda Castle at night, creates an ethereal ambiance that adds to the city's romantic allure. Hungary's culinary delights, from hearty goulash to delectable pastries, beckon me to savor the flavors of this gastronomic haven. Budapest's unique charm, a synthesis of history, culture, and natural beauty, fuels my desire to immerse myself in its timeless elegance
+            </p>
+        </div>
 
-<img src="images/budapest.jpg">
-<button>Budapest</button>
-<h3>Budapest</h3>
-<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been</p>
+        <div class="place-card">
+            <img src="../images/paris.jpg" class="parisimage w-full">
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4">Paris</button>
+            <p class="text-gray-600 mt-2 md:mt-4 lg:mt-6">
+                Paris, the epitome of romance and cultural sophistication, holds an irresistible allure that beckons me to its enchanting streets. The City of Lights, adorned with iconic landmarks like the Eiffel Tower and Louvre Museum, promises a journey through art, history, and timeless elegance. Strolling along the Seine River, I am captivated by the charm of cobblestone streets in Montmartre and the grandeur of Champs-Élysées. Parisian cafés, with their inviting ambiance, offer a delightful escape to indulge in exquisite pastries and rich coffee. The Louvre, a treasure trove of artistic masterpieces, fuels my passion for creativity and the human spirit. The romantic ambiance of Notre-Dame Cathedral and the Sacré-Cœur Basilica creates a sense of transcendence and awe. Exploring the Latin Quarter, I anticipate discovering the city's intellectual and bohemian legacy. Paris, with its timeless allure and cultural richness, embodies the essence of a dreamy escape and beckons me to immerse myself in its artistic, culinary, and historical wonders.
+            </p>
+        </div>
 
-
-<img src="images/paris.jpg">
-<button>paris</button>
-<h3>Paris</h3>
-<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been</p>
-
-
-
-<img src="images/singapore.jpg">
-<button>singapore</button>
-<h3> singapore</h3>
-<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been</p>
+        <div class="place-card">
+            <img src="../images/singapore.avif" class="singaporeimage w-full">
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4">Singapore</button>
+            <p class="text-gray-600 mt-2 md:mt-4 lg:mt-6">
+                Singapore, a captivating blend of modernity and tradition, beckons me with its dynamic allure and unique charm. The Lion City, nestled in the heart of Southeast Asia, is a tapestry of cultural diversity and architectural marvels. The futuristic skyline, dominated by iconic structures like the Marina Bay Sands and Gardens by the Bay, promises a visual spectacle that seamlessly merges with the lush greenery of the city-state. The vibrant street food scene, a fusion of Chinese, Malay, Indian, and Peranakan flavors, invites me on a culinary journey that tantalizes my taste buds. Exploring the historic neighborhoods of Chinatown and Little India, I anticipate immersing myself in the rich tapestry of traditions and festivities. Singapore's commitment to innovation, showcased in attractions like Sentosa's Universal Studios, fuels my curiosity for cutting-edge entertainment. The pristine beaches, such as Siloso Beach, offer a tranquil escape, contrasting the bustling city life. The efficiency of Singapore's public transportation system and the cleanliness of its streets exemplify a modern metropolis with a commitment to sustainability. The lush green spaces, including the Singapore Botanic Gardens, provide a serene retreat in the midst of urban vibrancy. From the cultural treasures of the National Museum to the bustling energy of Orchard Road's shopping district, Singapore promises a multifaceted experience that fuses tradition with contemporary dynamism. In essence, Singapore beckons me with the promise of a diverse and unforgettable journey, where every corner reveals a new facet of this cosmopolitan gem
+            </p>
+        </div>
+    </div>
 </body>
-<footer>
-    <p>phone number:+251988474612
-       email: henok3095@gmail.com
-    </p>
+<footer class="bg-gray-900 p-2 md:p-5 text-white text-center">
+    <p>Phone number: +251988474612 | Email: henok3095@gmail.com</p>
 </footer>
 </html>
